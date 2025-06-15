@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(to right, #1e1e1e, #292929);
+  font-family: sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+#app {
+  padding: 20px;
+}
+.avatar {
+  background: url('momo.png') no-repeat center/contain;
+  width: 200px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.chat-bubble {
+  background-color: #ff4da6;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px 0;
+  max-width: 70%;
+}
+#momo-voice {
+  display: none;
+}
